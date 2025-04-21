@@ -5,10 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-Commerce Frontend</title>
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
   </head>
   <body>
     <header>
-      <h1>Welcome to Our Online Store</h1>
+      <div class="header-container">
+        <div class="container">
+          <div class="flex_container align-center">
+            <!-- Logo -->
+            <div class="flex_item2 col_sm_ col_md_">
+              <div class="logo">
+                <a href="#">MyShop</a>
+              </div>
+            </div>
+            <!-- <div class="flex_item4 col_sm_ col_md_">
+              
+            </div> -->
+            <!-- Navigation Menu -->
+            <div class="flex_item10 flex">
+              <!-- Search Bar -->
+              <div class="search-box">
+                <div class="search-bar">
+                  <input
+                    type="text"
+                    placeholder="Search products..."
+                    class="hidden"
+                  />
+                  <button><i class="bi bi-search"></i></button>
+                </div>
+              </div>
+              <nav class="nav-menu">
+                <ul class="nav-list">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+              <!-- Shopping Cart -->
+
+              <div class="cart-menu">
+                <div class="cart">
+                  <a href="#"><i class="bi bi-cart3"></i></a>
+                  <span class="cart-count">3</span>
+                </div>
+                <!-- Hamburger Menu for Mobile -->
+
+                <label for="check" class="hamburger">
+                  <input type="checkbox" id="check" />
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </label>
+              </div>
+              <!-- <div class="flex_item2">
+              
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <script src="scripts/app.js"></script>
   </body>
